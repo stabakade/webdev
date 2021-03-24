@@ -6,6 +6,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="filename.css">
+	<style>
+		.container {
+			width: 700px;
+			
+		}
+		.item {
+			border:2px solid  chocolate ;
+			border-radius: 20px;
+			background-color: burlywood;
+			margin-top: 10px;
+		}
+		#fruits{
+			float: left;
+			width: 50%;
+		}
+		#computer {
+			float: right;
+			width: 50%;
+		}
+		#stationary {
+			float: left;
+			width: fit-content;
+		}
+	</style>
 </head>
 <body>
 	<div>Hi guys</div>
@@ -26,6 +50,23 @@
 	<!-- Inline and block elements -->
 	<p style="border: 2px solid red;">paragraph </p> <p style="border: 1px solid red;"> another paragraph showing that p tag is inline</p>
 	<span style="border: 1px solid green;"> span is a block element</span> <span style="border: 2px solid yellow;">also a span</span>
-	
+	<div class="container">
+		<div id="fruits" class="item">
+			<h3>Fruits</h3>
+			<p id="fruitspara" class="para"></p>
+			<h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aut quibusdam sint accusantium neque unde repellendus consequatur iure molestiae ipsum eveniet corrupti itaque nesciunt eaque totam, quasi quos cumque. Aliquid?</h4>
+
+		</div>
+		<div id="computer" class="item">
+			<h3>Computer</h3>
+			<p id="computerpara" class="para"></p>
+			<h4>Lorem, ipsum dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius quaerat praesentium laborum neque, vel veniam perspiciatis voluptates, tenetur numquam modi, nobis unde. Non quibusdam saepe perferendis sed qui suscipit ducimus.</h4>
+		</div>
+		<div id="stationary" class="item">
+			<h3>Stationary</h3>
+			<p id="stationarypara" class="para"></p>
+			<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+		</div>
+	</div>
 </body>
 </html>

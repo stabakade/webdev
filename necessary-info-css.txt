@@ -1,2 +1,13 @@
+
 External css: <link rel="stylesheet" href="filename.css">
 !important used to take precedence over everything
+
+fonts website: Cssfonts, googlefonts 
+always keep box model image handy, and apply element, padding, border, margin from chrome developer console
+and don't ignore the color so that you can directly from the dev console
+
+
+
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+hence we use box-sizing
