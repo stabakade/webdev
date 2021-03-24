@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="filename.css">
+    <!-- Internal css -->
+    <style>
+        /* some comment */
+        p {
+            color: black;
+            background-color: brown !important;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>This is a heading before form</h1>
+    <!-- the form will try to submit it to backend -->
+    <form action="backend.php"> 
+        <!-- label ke bare me dekh lena, Name pe click karne se texttarea selected -->
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Surname: <input type="text" name="mySurname">
+        </div>
+        <div>
+            Date: <input type="date" name="" id="">
+        </div>
+        <div>
+            <input type="number" name="" id="">
+        </div>
+        <div>
+            Are you eligible? <input type="checkbox" name="" id="" checked>
+        </div>
+        <!-- we gave same name so only one can be selected -->
+        <div>
+            Gender: Male <input type="radio" name="myGender">
+            Female: <input type="radio" name="myGender">
+        </div>
+        </div>
+            Write about yourself: <br> <Textarea name="myText" cols="30" rows="30"></Textarea>
+        <div>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <div>
+            <input type="reset" name="Reset Now" id="">
+        </div>
+        <div>
+            <p>HTML entities</p>
+            <!-- dont use entities -->
+            <p> &nbsp; &lt; &gt; &copy; </p>
+        </div>
+        <div>
+            <p>semantics bhi use kar sakte hain, not necessary tho</p>
+        </div>
+    </form>
+</body>
+</html>

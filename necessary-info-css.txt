@@ -1,0 +1,2 @@
+External css: <link rel="stylesheet" href="filename.css">
+!important used to take precedence over everything

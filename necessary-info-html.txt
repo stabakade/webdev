@@ -1,0 +1,51 @@
+VS Code liveserver ko use karo hamesha bottom right pe liveserver ka option hai
+
+also select mouse wheel zoom wala option
+
+By Ctrl + L, you can select the whole line
+alt + up/down key will move your whole line up/down
+Ctrl + Enter to jump to new line kahi bhi ho chahe
+HTML boilerplate shortcut: ! + Enter
+
+we link external sheets in <head> tag: <link rel="stylesheet" href="filename.css">
+
+
+relative path shortcut: Ctrl + Shift + H 
+to get multiple html tags: p*4 then enter
+to write data in it: write data and TAB to switch tag
+HTML shortcut: write html tag without <> and press Enter
+
+to get dummy text: Lorem6
+comment shortcut: Ctrl+K+C full line ko comment kar dega
+
+for list : nav>ul>li 
+Element with IDs: div#main
+
+agar new page me kholna hai, use target blank
+<a href="url" target="_blank"></a> 
+
+learn the shortcuts for Add Cursor Above and Add Cursor Below
+learn the shortcuts for View: Toggle Side Bar Visibility
+learn the shortcuts for View: Toggle Integrated Terminal
+learn the shortcuts for View: Show Search
+learn the shortcuts for Search: Replace in Files
+learn the shortcuts for File: New Untitled File
+learn the shortcuts for View: Open Next Editor
+learn the shortcuts for View: Open Previous Editor
+learn the shortcuts for View: Close Editor .
+learn the shortcuts for Move Line Up and Move Line Down
+
+
+
+Images free me:
+source.unsplash.com
+
+<table> me thead aur tbody tags use hote hain
+
+while using tags, always think whether it is inline or block element 
+
+we cannot assign an id to two elements
+
+ID and Class shortcuts
+span.redBg.blackBorder.anotherClassss
+span#myId
