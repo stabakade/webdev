@@ -6,8 +6,16 @@ fonts website: Cssfonts, googlefonts
 always keep box model image handy, and apply element, padding, border, margin from chrome developer console
 and don't ignore the color so that you can directly from the dev console
 
+to apply to every element
+* {
 
-
+}
 width + padding + border = actual width of an element
 height + padding + border = actual height of an element
 hence we use box-sizing
+
+Clear and float:
+before alignment with clear and float, we first set width of container
+in which our elements are
+In alignment, set width in percentage and try with same direction float first!
+clear: left means koi bhi float left element ki overlapping mere pe allowed nai hai

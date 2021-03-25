@@ -7,8 +7,10 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="filename.css">
 	<style>
-		.container {
+		/* .container {
 			width: 700px;
+			border: 3px solid purple;
+			background-color: purple;
 			
 		}
 		.item {
@@ -28,7 +30,40 @@
 		#stationary {
 			float: left;
 			width: fit-content;
+		} */
+		* {
+			box-sizing: border-box;
 		}
+		.container {
+			width: 700px;
+			background-color:rgb(228, 165, 165);
+			border: rgb(170, 81, 17);
+			margin: auto;
+		}
+		.item {
+			border: 2px solid sienna;
+			margin: 5px 5px;
+			border-radius: 3px;
+			background-color: silver;
+			padding: 3px;
+		}
+		#fruits {
+			float: left;
+			width: 48%;
+		}
+		#computer {
+			float: left;
+			width: 48%;
+		}
+		#stationary {
+			width: 98%;
+			/* float: left; */
+			clear: left;  /*means koi bhi float left element overlap mat karo mere se!*/
+		}
+		p, h3 {
+			text-align: center;
+		}
+
 	</style>
 </head>
 <body>
@@ -49,23 +84,34 @@
 	<a href="url" target="_blank"></a>
 	<!-- Inline and block elements -->
 	<p style="border: 2px solid red;">paragraph </p> <p style="border: 1px solid red;"> another paragraph showing that p tag is inline</p>
-	<span style="border: 1px solid green;"> span is a block element</span> <span style="border: 2px solid yellow;">also a span</span>
-	<div class="container">
+	<span style="border: 1px solid green"> span is a block element</span> <span style="border: 2px solid yellow;">also a span</span>
+	<!-- <div class="container">
 		<div id="fruits" class="item">
 			<h3>Fruits</h3>
-			<p id="fruitspara" class="para"></p>
-			<h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aut quibusdam sint accusantium neque unde repellendus consequatur iure molestiae ipsum eveniet corrupti itaque nesciunt eaque totam, quasi quos cumque. Aliquid?</h4>
-
+			<p id="fruitspara" class="para">>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aut quibusdam sint accusantium neque unde repellendus consequatur iure molestiae ipsum eveniet corrupti itaque nesciunt eaque totam, quasi quos cumque. Aliquid?</p>
 		</div>
 		<div id="computer" class="item">
 			<h3>Computer</h3>
-			<p id="computerpara" class="para"></p>
-			<h4>Lorem, ipsum dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius quaerat praesentium laborum neque, vel veniam perspiciatis voluptates, tenetur numquam modi, nobis unde. Non quibusdam saepe perferendis sed qui suscipit ducimus.</h4>
+			<p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cupiditate corporis adipisci error exercitationem veritatis sequi doloremque iure tenetur obcaecati inventore, eos praesentium libero, officiis quibusdam similique, labore eveniet voluptate. Harum.</p>
 		</div>
 		<div id="stationary" class="item">
 			<h3>Stationary</h3>
-			<p id="stationarypara" class="para"></p>
-			<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+			<p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ut veniam. Sint aliquam nemo in, consequuntur architecto ex eligendi asperiores possimus, accusantium quidem laborum corrupti quos adipisci at vero? Obcaecati deserunt voluptas velit inventore aut distinctio illum unde? Eveniet, amet!</p>
+		</div>
+	</div> -->
+	<div class="container">
+		<h3>Welcome to my store</h3>
+		<div id="fruits" class="item">
+			<h3>Fruits</h3>
+			<p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem omnis earum saepe doloremque hic repudiandae voluptatem reiciendis asperiores tempora. Nisi sit, veniam a amet doloribus est odit cumque dolorum placeat nam nihil.</p>
+		</div>
+		<div id="computer" class="item">
+			<h3>Container</h3>
+			<p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem omnis earum saepe doloremque hic repudiandae voluptatem reiciendis asperiores tempora. Nisi sit, veniam a amet doloribus est odit cumque dolorum placeat nam nihil.</p>
+		</div>
+		<div id="stationary" class="item">
+			<h3>Stationary</h3>
+			<p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem omnis earum saepe doloremque hic repudiandae voluptatem reiciendis asperiores tempora. Nisi sit, veniam a amet doloribus est odit cumque dolorum placeat nam nihil.</p>
 		</div>
 	</div>
 </body>
