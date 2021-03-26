@@ -16,9 +16,28 @@
             background-color: whitesmoke;
             font-family: 'New Tegomin', serif;
         }
+        .navbar {
+            background-color: red;
+        }
+        .navbar ul {
+            overflow: auto;
+        }
+        .navbar li{
+            float: left; 
+            list-style: none;
+
+        }
     </style>
 </head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>File a complaint</li>
+        </ul>
+    </nav>
     <h1>This is a heading before form</h1>
     <!-- the form will try to submit it to backend -->
     <form action="backend.php"> 

@@ -15,7 +15,26 @@ height + padding + border = actual height of an element
 hence we use box-sizing
 
 Clear and float:
+we use flexbox instead of float tho!
 before alignment with clear and float, we first set width of container
 in which our elements are
 In alignment, set width in percentage and try with same direction float first!
 clear: left means koi bhi float left element ki overlapping mere pe allowed nai hai
+
+button:
+cursor pointer, text-decoration
+a:hover and a:visited these are pseudo selectors
+a:hover {
+    color: red;
+}
+
+Navigation Menu:
+to give css to something inside, navbar is class  
+        .navbar li{
+            
+        }
+to remove bullet points after using float, list-styling: none
+to retain our background color which is lost due to float,         
+            .navbar ul {
+                overflow: auto;
+            }
