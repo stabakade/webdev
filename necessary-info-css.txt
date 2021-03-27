@@ -38,3 +38,12 @@ to retain our background color which is lost due to float,
             .navbar ul {
                 overflow: auto;
             }
+
+Display:
+Remember that we cannot set width of inline element, only of block element 
+to centre an inline element, make its display block and then margin: auto 
+also, make text-align: centre and increase width in % if want (hata bhi sakte hain kyoki humane andar ke elements ko bhi center kar diya hai)
+if want to make a display inline and also change its width: 
+make display: inline-block and also try box-sizing: border-box to fit into width
+
+
