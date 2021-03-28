@@ -1,5 +1,6 @@
 
 External css: <link rel="stylesheet" href="filename.css">
+head tag ke baahar likhna, short cut: link:css 
 !important used to take precedence over everything
 
 fonts website: Cssfonts, googlefonts 
