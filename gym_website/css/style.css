@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background: url(../img/gym.jpg); */
+    background-color: black;
+    font-family: 'Baloo Bhaina 2', cursive;
+    height: 4000px;
+    color: white;
+}
+.left {
+    /* aise img add karne se background me nahi aa raha;
+    background: url(../img/logo.png); */
+    position: absolute;
+    border: red;
+    top: 20px;
+    left: 34px;
+    /* border: 2px solid red; */
+    display: inline-block;
+
+}
+.left div {
+    line-height: 0px;
+    font-size: 20px;
+}
+.left img {
+    width: 100px;
+    /* css function to invert the image */
+    filter: invert(100%);
+}
+.middle {
+    /* margin ke basis pe centre karne ke liye teen cheezein karni hai */
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+
+    border: 2px solid green;
+}
+.right {
+    /* right me fekne ke liye postion set karna zaruri hai */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid blue;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    /* neeche ki link wali line hatane ke liye */
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+/* if hover kara ya class active hui */
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: green;
+}
+.btn {
+    margin: 0px 9px;
+    background-color: blanchedalmond;
+    padding: 6px 10px;
+    border: 2px solid grey;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    /* taaki point kare button pe jab le ke aao */
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(124, 110, 110);
+    
+}
+.container {
+    width: 30%;
+    border: 2px solid green;
+    border-radius: 13px;
+    padding: 61px 30px;
+    margin: 96px 126px;
+}
