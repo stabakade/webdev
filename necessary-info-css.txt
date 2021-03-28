@@ -46,4 +46,9 @@ also, make text-align: centre and increase width in % if want (hata bhi sakte ha
 if want to make a display inline and also change its width: 
 make display: inline-block and also try box-sizing: border-box to fit into width
 
+positioning
+refer codewithharry notes too
+static: default hoti hai 
+relative: relative to its original postition and will leave a gap at its normal position 
+absolute: relative to the parent 
 

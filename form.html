@@ -27,6 +27,39 @@
             list-style: none;
 
         }
+        .poscontainer {
+            background-color: khaki;
+            height: 4000px;
+        }
+        .boxes {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+            /* ek hi line me karne ke liye */
+            display: inline-block;
+        }
+        #boxes1 {
+            position: static;
+        }
+        #boxes2 {
+            /* jab scrolll ke bad bhi wahi chahiye element fixed */
+            /* generally chat app banate samay use hoga */
+            position: fixed;
+            top: 8px;
+            left: 300px;
+        }
+        #boxes3 {
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+        #boxes4 {
+            position: sticky;
+            top: 3px;
+            left: 81px;
+            
+        }
     </style>
 </head>
 <body>
@@ -81,7 +114,12 @@
         <div>
             <p>semantics bhi use kar sakte hain, not necessary tho</p>
         </div>
-        
+        <div class="poscontainer">
+            <div class="boxes" id="boxes1">1</div>
+            <div class="boxes" id="boxes2">2</div>
+            <div class="boxes" id="boxes3">3</div>
+            <div class="boxes" id="boxes4">4</div>
+        </div>
     </form>
 </body>
 </html>
