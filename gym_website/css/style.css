@@ -84,3 +84,26 @@ body {
     padding: 61px 30px;
     margin: 96px 126px;
 }
+.form-group input {
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.container h1 {
+    text-align: center;
+}
+.container button {
+    text-align: center;
+
+    /* setting display block is necessary if want to change width and margin like this */
+    display: block;
+    width: 60%;
+    margin: 8px auto;
+    border-radius: 5px;
+}
