@@ -53,3 +53,9 @@ static: default hoti hai
 relative: relative to its original postition and will leave a gap at its normal position 
 absolute: relative to the parent 
 
+div.box#box$*4
+isse numbers aa jayenge like box1, box2
+
+visibility: hidden se block rahega wahi par, jagah reserved rehti
+display: none se gayab hi ho jayega
+to work with z-index, the postition has to be relative/absolute/fixed/sticky
