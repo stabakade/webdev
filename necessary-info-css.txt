@@ -59,3 +59,10 @@ isse numbers aa jayenge like box1, box2
 visibility: hidden se block rahega wahi par, jagah reserved rehti
 display: none se gayab hi ho jayega
 to work with z-index, the postition has to be relative/absolute/fixed/sticky
+
+font-size: 3em matlab parent ke 3 times ho jayega
+font-size: 3rem matlab <html> tag ke 3 times 
+refer this article when a little bit experienced:
+https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984
+
+Learn about media types too when working with media query

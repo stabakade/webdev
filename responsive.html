@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+        .box {
+            background-color: red;
+            font-size: 22px;
+            text-align: center;
+            display: none;
+        }
+
+        /* jaise hi width 0-500 hogi, ye query fire hogi */
+        @media only screen and (max-width: 500px){
+            #box-1{
+                display: block;
+            }
+        }
+        @media only screen and (max-width: 500px) and (min-width: 300px){
+            #box-2{
+                display: block;
+                background-color: black;
+            }
+        }
+        @media only screen and (max-width: 800px) and (min-width: 500px){
+            #box-3{
+                display: block;
+                background-color: rgb(90, 163, 206);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1">I am Iphone</div>
+    <div class="box" id="box-2">I am tablet</div>
+    <div class="box" id="box-3">I am computer</div>
+    <div class="box" id="box-4">I am widescreen computer</div>
+</body>
+</html>
